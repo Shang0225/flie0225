@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="springtask" />
+        <module name="springTsta" />
+        <module name="task" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="spring-ioc" target="1.8" />
+      <module name="springtask" target="1.8" />
+      <module name="SpringTask" target="1.8" />
+      <module name="springTsta" target="1.8" />
+      <module name="task" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
